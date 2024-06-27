@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>YOUR-WATER</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+      <!-- font awesome -->
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--  -->
+      <!-- owl stylesheets -->
+      <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Votre Site de Commerce de Filtres d'Eau</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+<style>
+    
+
+h1, .g-title {
+    color: #007bff;
+    text-align: center;
+}
+
+.g-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.col-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.desc {
+    color: #555;
+}
+
+.elementor-spacer-inner {
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .faq-item {
+        flex-direction: column;
+    }
+
+    .col-title, .col-md-7 {
+        width: 100%;
+    }
+
+    .col-md-7 {
+        margin-top: 10px;
+    }
+}
+
+</style>
+</head>
+<body>
+    <!-- banner bg main start -->
+    <div class="banner_bg_main">
+       <!-- header top section start -->
+       <div class="container">
+          <div class="header_section_top">
+             <div class="row">
+                <div class="col-sm-12">
+                   <div class="custom_menu">
+                      <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="#">Nos produits</a></li>
+                         <li><a href="contact.html">Contactez-nous</a></li>
+                         <li><a href="#">A propos de nous</a></li>
+                         <li><a href="#">Messagerie</a></li>
+                         <li><a href="#">Back-office</a></li>
+                      </ul>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <!-- header top section start -->
+       <!-- logo section start -->
+       <div class="logo_section">
+          <div class="container">
+             <div class="row">
+                <div class="col-sm-12">
+                   <div class="logo"><a href="index.html"><img src="images/logo.png" width=13%></a></div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <!-- logo section end -->
+       <!-- header section start -->
+       <div class="header_section">
+          <div class="container">
+             <div class="containt_main">
+                <div id="mySidenav" class="sidenav">
+                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                   <a href="index.html">Home</a>
+                   <a href="rechange.html">Nos pieces de rechange</a>
+                   <a href="FILTER.html">Nos filtre d'eau</a>
+                   <a href="accessoir.html">Nos Accessoires</a>
+                </div>
+                <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
+                <div class="dropdown">
+                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
+                   </button>
+                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Filters</a>
+                      <a class="dropdown-item" href="#">Accessoires</a>
+                      <a class="dropdown-item" href="#">Pieces de rechange</a>
+                   </div>
+                </div>
+                <div class="main">
+                   <!-- Another variation with a button -->
+                   <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search this blog">
+                      <div class="input-group-append">
+                         <button class="btn btn-secondary" type="button" style="background-color: #f26522; border-color:#f26522 ">
+                         <i class="fa fa-search"></i>
+                         </button>
+                      </div>
+                   </div>
+                </div>
+                
+             </div>
+          </div>
+       </div>
+       <!-- header section end -->
+       <!-- banner section start -->
+       <div class="banner_section layout_padding">
+          <div class="container">
+             <div id="my_slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                   <div class="carousel-item active">
+                      <div class="row">
+                         <div class="col-sm-12">
+                            <h1 class="banner_taital">YOUR WATER<br>SPÉCIALISTE DE TRAITEMENT DES EAUX</h1>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="carousel-item">
+                      <div class="row">
+                         <div class="col-sm-12">
+                            <h1 class="banner_taital">YOUR WATER<br>on est pas les seuls mais on est les meilleurs</h1>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="carousel-item">
+                      <div class="row">
+                         <div class="col-sm-12">
+                            <h1 class="banner_taital">YOUR WATER<br>livraison et installation gratuite a casablanca</h1>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+                <i class="fa fa-angle-right"></i>
+                </a>
+             </div>
+          </div>
+       </div>
+       <!-- banner section end -->
+    </div>
+    <!-- banner bg main end -->
+         <div class="container">
+        <h1 class="text-center">FAQ</h1>
+
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1395eff2" data-id="1395eff2" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-650f37af elementor-widget elementor-widget-martfury-faqs" data-id="650f37af" data-element_type="widget" data-widget_type="martfury-faqs.default">
+                        <div class="elementor-widget-container">
+                            <div class="martfury-faq_group">
+                                <div class="row">
+                                    <div class="col-gtitle col-md-3 col-sm-3 col-xs-12">
+                                        <h2 class="g-title">INSTALLATION DE L’OSMOSEUR</h2>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <div class="row">
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">OÙ ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Il est d’usage de le placer sous votre évier, mais il est également possible de le laisser sur le plan de travail, en le fixant au mur ou pas (suivant le modèle choisi). Pour des soucis de pression, nous vous conseillons de limiter la distance entre d’une part l’osmoseur et le réservoir et d’autre part l’osmoseur et le robinet à 5 m.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">COMBIEN DE PLACE ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Les dimensions de nos osmoseurs varient entre les modèles et les options choisies. Si l’espace est un critère pour vous, nous vous conseillons nos modèles à flux direct qui ne nécessitent pas de réservoir grâce au débit important de leur(s) membrane(s) osmotique(s).</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">COMBIEN DE TEMPS ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Nos techniciens agréent BIOosmosis réaliseront l’installation en moins d’une heure.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">QUEL POIDS POUR L’ENSEMBLE ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">À vide, un osmoseur pèse entre 8 et 12 kg suivant le modèle et les options. Une fois en fonctionnement, il faut y ajouter le poids de l’eau qui atteint 6 kg dans le réservoir et jusqu’à 5 kg dans les différents boîtiers de préfiltres et de membrane ; ce qui donne un total variant entre 13 et 23 kg.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-element elementor-element-f1d0fa4 elementor-widget elementor-widget-spacer" data-id="f1d0fa4" data-element_type="widget" data-widget_type="spacer.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                                <div class="elementor-spacer-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-element elementor-element-c9df02e elementor-widget elementor-widget-martfury-faqs" data-id="c9df02e" data-element_type="widget" data-widget_type="martfury-faqs.default">
+                        <div class="elementor-widget-container">
+                            <div class="martfury-faq_group">
+                                <div class="row">
+                                    <div class="col-gtitle col-md-3 col-sm-3 col-xs-12">
+                                        <h2 class="g-title">ENTRETIEN</h2>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <div class="row">
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">QUAND ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Les filtres PP, GAC et CTO nécessitent un remplacement tous les 8 à 12 mois. Cela dépend d’une part de votre fréquence d’utilisation (nombre de litres d’eau filtrés) et de la pureté de votre eau (nombre de particules retenues dans le filtre). La membrane doit quant à elle être changée tous les 3 ans. La cartouche T33 et la cartouche de reminéralisation (si vous en êtes équipés) sont à changer tous les 1 à 2 ans également.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">COMBIEN DE TEMPS ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Le changement d’un filtre d’une cartouche ou de la membrane osmotique prend moins de 15 minutes. N’oubliez pas de couper l’eau au préalable… Avec notre nouveau modèle OS04 4C/OS04 5C, le changement de filtre ne prend que 5 secondes grâce aux cartouches à baïonnettes qui se clipsent. L’entretien n’a jamais été aussi facile et rapide !</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">QUE SE PASSE-T-IL SI JE NE CHANGE PAS LES PRÉ-FILTRES ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Les 3 préfiltres jouent un rôle essentiel pour la durée de vie de la membrane. Ils retiennent les plus grosses particules dissoutes dans l’eau pour éviter d’obstruer la membrane trop rapidement et en particulier le chlore qui est nocif pour cette dernière, car il provoque à long terme sa décomposition. Lorsque les préfiltres GAC et CTO sont saturés, ils laissent passer le chlore ; ce qui entraîne une baisse de performance rapide et une détérioration de la membrane osmotique.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">INTÉRÊT D’UN TESTEUR TDS ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">L’acquisition de cet appareil est pratique pour contrôler le bon fonctionnement de votre osmoseur. Néanmoins, la technologie de l’osmose inverse est extrêmement fiable si vous respectez les intervalles d’entretien recommandés. De plus, un changement de la qualité de votre eau sera facilement remarqué par un changement de goût et des traces dans vos casseroles. Nous en commercialisons un simple et fiable.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">QUEL NIVEAU DE TDS OBTIENT-ON ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Au minimum, un osmoseur permet de diviser la TDS de l’eau par 10. Une eau est considérée comme pure au-dessous de 50 ppm.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-element elementor-element-faef5b2 elementor-widget elementor-widget-spacer" data-id="faef5b2" data-element_type="widget" data-widget_type="spacer.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                                <div class="elementor-spacer-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-element elementor-element-8842294 elementor-widget elementor-widget-martfury-faqs" data-id="8842294" data-element_type="widget" data-widget_type="martfury-faqs.default">
+                        <div class="elementor-widget-container">
+                            <div class="martfury-faq_group">
+                                <div class="row">
+                                    <div class="col-gtitle col-md-3 col-sm-3 col-xs-12">
+                                        <h2 class="g-title">APPLICATIONS DOMESTIQUES</h2>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <div class="row">
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">BIBERON ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Oui ! L’eau osmosée étant libérée de tous les polluants, comme le nitrate par exemple, elle est idéale pour un nourrisson dont la santé peut être grandement affectée par ces derniers. L’agence de santé publique canadienne recommande d’ailleurs officiellement l’eau osmosée pour les biberons.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">GLAÇONS ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">L’eau osmosée vous permet d’obtenir des glaçons cristallins qui fondent moins vite. En effet, les minéraux et autres particules ramollissent les glaçons et provoquent leur fonte plus rapidement. De plus, les aromes de vos boissons restent intacts avec une eau osmosée sans goût.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">RÉFRIGÉRATEURS ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Bien sûr ! L’eau osmosée est idéale et recommandée pour les réfrigérateurs. Attention par contre à ne pas utiliser de tuyaux en cuivre pour le raccordement pour éviter leur oxydation.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">VISAGE ET CHEVEUX ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">Se rincer le visage ou les cheveux à l’eau osmosée apporte des résultats étonnants. Ce n’est pas pour rien que les produits cosmétiques utilisent exclusivement de l’eau osmosée dans leurs formules.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">PLANTES ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">L’eau osmosée, libérée de son chlore et avec sa faible minéralisation, est idéale pour nos plantes d’intérieur, car c’est l’eau qui se rapproche le plus de l’eau de pluie dont nos plantes raffolent. Quasi obligatoire pour les orchidées, l’eau osmosée permet une parfaite absorption par les racines des nutriments présents dans la terre et des engrais que vous leur apportez.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">LAVE-GLACES ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">L’eau osmosée associée à du liquide vaisselle est un excellent lave-glace pour la voiture, car il sèche sans trace après utilisation. À ne pas utiliser par temps de gel !</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">APPAREILS CHAUFFANTS ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">En luttant efficacement contre l’entartrage, l’eau osmosée permet de prolonger la durée de vie de votre fer à repasser, bouilloire, cafetière, humidificateur… Plus besoin d’eau déminéralisée payée au prix fort !</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">VAISSELLE ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">N’hésitez pas à rincer vos verres à l’eau osmosée pour éviter les traces de calcaire qui font tache à l’apéro.</div>
+                                                </div>
+                                            </div>
+                                            <div class="faq-item">
+                                                <div class="col-title col-md-5 col-sm-5 col-xs-12">
+                                                    <h3 class="title">VITRES ?</h3>
+                                                </div>
+                                                <div class="col-md-7 col-sm-7 col-xs-12">
+                                                    <div class="desc">De même que pour la vaisselle, laver vos vitres à l’eau osmosée vous évitera les traces après séchage.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-element elementor-element-6fbdc006 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="6fbdc006" data-element_type="widget" data-widget_type="divider.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-divider">
+                                <span class="elementor-divider-separator"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elementor-element elementor-element-5201832e elementor-widget elementor-widget-spacer" data-id="5201832e" data-element_type="widget" data-widget_type="spacer.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                                <div class="elementor-spacer-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+        <div class="container">
+           <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png" width=10% ></a></div>
+           <div class="footer_menu">
+              <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="#">Nos produits</a></li>
+                 <li><a href="contact.html">Contactez-nous</a></li>
+                 <li><a href="#">A propos de nous</a></li>
+                 <li><a href="#">Messagerie</a></li>
+                 <li><a href="#">Back-office</a></li>
+              </ul>
+           </div>
+           <div class="location_main">Help Line  Number : <a href="#">+212614550116</a></div>
+        </div>
+     </div>
+     <!-- footer section end -->
+     <!-- copyright section start -->
+     <div class="copyright_section">
+        <div class="container">
+           <p class="copyright_text">© 2024 All Rights Reserved. Design by ASNL-dev</p>
+        </div>
+     </div>
+     <!-- copyright section end -->
+     <!-- Javascript files-->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery-3.0.0.min.js"></script>
+     <script src="js/plugin.js"></script>
+     <!-- sidebar -->
+     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+     <script src="js/custom.js"></script>
+     <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+     </script>
+  </body>
+</html>
